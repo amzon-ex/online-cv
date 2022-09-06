@@ -1,0 +1,25 @@
+{% assign activities = site.data.data.activities %}
+{% if activities %}
+<section class="section activity-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-circle-nodes fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ activities.title }}
+  </h2>
+
+  {% for activity in activities.activitylist %}
+  <div class="item">
+    <div class="summary">
+      {{ activity.summary | markdownify }}
+    </div>
+    <div class="details">
+      {{ activity.details | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+    
+</section><!--//section-->
+{% endif %}

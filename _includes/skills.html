@@ -1,31 +1,60 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-<section class="skills-section section">
+  {% if site.data.data.sidebar.skills %}
+  <div class="skills-container container-block">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
-  </h2>
+    <h2 class="container-block-title">
+      Skills
+    </h2>
 
-  <div class="skillset">
-
-    {% for skill in skills.toolset %}
+    {% for cat in skills.toolset %}
     <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
+    <h4 class="level-title">{{ cat.category }}</h4>
+      {% for skill in cat.skills %}
+        {{ skill.name }}
+        {% if skill.details %}
+          <span class="meta">• {{ skill.details }}</span>
+        {% endif %}
+        </br>
+        <!-- <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div>--><!--level-bar -->
+        <!--//item-->
+      {% endfor %}
+    </div>
     {% endfor %}
 
-  </div>
+  </div><!--//education-container-->
 
-</section><!--//skills-section-->
+  {% else %}
+  <section class="skills-section section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ skills.title }}
+    </h2>
+
+    <div class="skillset">
+
+      {% for skill in skills.toolset %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+
+    </div>
+
+  </section><!--//skills-section-->
+  {% endif %}
 {% endif %}

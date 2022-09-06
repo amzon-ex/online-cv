@@ -24,6 +24,11 @@
   {% endif %}
 
   {% include language.html %}
+
+  {% if sidebar.skills %}
+    {% include skills.html %}
+  {% endif %}
+
   {% include interests.html %}
 
   {% if sidebar.about %}
