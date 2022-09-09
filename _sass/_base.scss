@@ -143,25 +143,137 @@ p {
       &:last-child {
         margin-bottom: 0;
       }
+      line-height: 0px;
+    }
+    .skill-box {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      outline: none;
+      margin-bottom: 10px;
+    }
+    .skill-desc {
+      line-height: 1.15;
     }
     .level-title {
       font-size: 15px;
       margin-top: 0;
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
     .meta {
       color: rgba(256, 256, 256, 0.6);
-      // font-weight: 400;
       margin-bottom: 0px;
       margin-top: 0;
     }
-    .level-bar {
-      height: 12px;
-      background: $smoky-white;
+    // .level-bar {
+    //   height: 12px;
+    //   background: $smoky-white;
+    // }
+    // .level-bar-inner {
+    //   height: 12px;
+    //   background: lighten($theme-color, 15%);
+    // }
+    
+    .level-container {
+      position: relative;
+      width: fit-content;
+      height: fit-content;
+      padding-left: 10px;
+      align-self: center;
+
+      .level-steps {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 40px;
+        .level-step {
+          width: 10px;
+          height: 10px;
+          background: $smoky-white;
+          border: 1px solid darken($smoky-white, 15%);
+          border-radius: 50%;
+          transition: background 1s;
+          z-index: 54;
+        }
+        .level-step.completed {
+          border: 1px solid lighten($theme-color, 25%);
+          background: lighten($theme-color, 25%);
+          z-index: 56;
+        }
+      }
+      .level-progress {
+        position: absolute;
+        // top: 6px;
+        width: 40px;
+        // height: 50%;
+        top: 38%;
+        border-bottom: 2px solid darken($smoky-white, 15%);
+        z-index: 50;
+        .level-percent {
+          position: absolute;
+          // top: 1px;
+          width: 0;
+          height: 100%;
+          border-bottom: 2px solid lighten($theme-color, 25%);
+          z-index: 52;
+          transition: width 1s;
+        }
+      }
     }
-    .level-bar-inner {
-      height: 12px;
-      background: lighten($theme-color, 15%);
+    .skill-legend {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 5px;
+      color: rgba(256, 256, 256, 0.6);
+      span {
+        text-align: center;
+      }
+    }
+    .level-container-legend {
+      position: relative;
+      width: fit-content;
+      height: fit-content;
+      align-self: center;
+      margin: auto;
+      opacity: 0.6;
+
+      .level-steps {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 180px;
+        .level-step {
+          width: 25px;
+          height: 25px;
+          background: $smoky-white;
+          border: 2px solid darken($smoky-white, 15%);
+          border-radius: 50%;
+          transition: background 1s;
+          z-index: 54;
+        }
+        .level-step.completed {
+          border: 2px solid lighten($theme-color, 25%);
+          background: lighten($theme-color, 25%);
+          z-index: 56;
+        }
+      }
+      .level-progress {
+        position: absolute;
+        width: 180px;
+        // height: 50%;
+        top: 50%;
+        border-bottom: 2px solid darken($smoky-white, 15%);
+        z-index: 50;
+        .level-percent {
+          position: absolute;
+          // top: 1px;
+          width: 0;
+          height: 100%;
+          border-bottom: 2px solid lighten($theme-color, 25%);
+          z-index: 52;
+          transition: width 1s;
+        }
+      }
     }
   }
 

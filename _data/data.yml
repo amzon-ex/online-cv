@@ -139,41 +139,44 @@ skills:
         skills:
           - name: Python
             details: scientific stack, numba
-            level: 100%
+            level: 3
 
           - name: Fortran
-            level: 66%
+            level: 2
 
           - name: Mathematica
             details: tensor manipulation, xAct
-            level: 66%
+            level: 2
 
           - name: git
-            level: 66%
+            level: 2
 
       - category: Visualization
         skills:
           - name: matplotlib, gnuplot
+            level: 2
 
           - name: p5.js
             details: animation
-            level: 66%
+            level: 2
 
       - category: Techniques
         skills:
           - name: Neural Networks
-            level: 33%
+            level: 1
 
           - name: GW Data Analysis
             details: gwosc, gwpy, pycbc
-            level: 33%
-
-          - name: Latex
-            level: 66%
+            level: 1
 
           - name: MPI
             details: mpi4py, OpenMPI
-            level: 33%
+            level: 1
+
+      - category: Other
+        skills:
+          - name: LaTeX
+            level: 2
 
 
 workshops:

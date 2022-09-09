@@ -9,23 +9,47 @@
 
     {% for cat in skills.toolset %}
     <div class="item">
-    <h4 class="level-title">{{ cat.category }}</h4>
+      <h4 class="level-title">{{ cat.category }}</h4>
       {% for skill in cat.skills %}
-        {{ skill.name }}
-        {% if skill.details %}
-          <span class="meta">• {{ skill.details }}</span>
-        {% endif %}
-        </br>
-        <!-- <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
+      <div class="skill-box">
+        <div class="skill-desc">
+            {{ skill.name }}
+            {% if skill.details %}
+              <span class="meta">• {{ skill.details }}</span>
+            {% endif %}
+        </div>
+        <div class="level-container" data-level="{{ skill.level }}">
+          <div class="level-progress">
+            <div class="level-percent"></div>
           </div>
-        </div>--><!--level-bar -->
-        <!--//item-->
+          <div class="level-steps">
+            <div class="level-step" id="1"></div>
+            <div class="level-step" id="2"></div>
+            <div class="level-step" id="3"></div>
+          </div>
+        </div>
+      </div>
+      </br>
       {% endfor %}
     </div>
     {% endfor %}
+    <div class="skill-legend">
+      <span>Learning</span>
+      <span>Familiar</span>
+      <span>Proficient</span>
+    </div>
+    <div class="level-container-legend" data-level="3">
+      <div class="level-progress">
+        <div class="level-percent"></div>
+      </div>
+      <div class="level-steps">
+        <div class="level-step" id="1"></div>
+        <div class="level-step" id="2"></div>
+        <div class="level-step" id="3"></div>
+      </div>
+    </div>
 
-  </div><!--//education-container-->
+  </div><!--//skills-container-->
 
   {% else %}
   <section class="skills-section section">

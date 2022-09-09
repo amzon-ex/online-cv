@@ -16,6 +16,7 @@ Forked from [sharu725/online-cv](https://github.com/sharu725/online-cv).
 - Added more sections and tweaked CSS
 - Shifted "Skills" section to sidebar and styled it differently
 - Upgraded to FontAwesome v6.2.0
+- Added step progressbars to skills section
 
-**TO-DO**: Add step progressbars to skills section
+**TO-DO**: Add subsections to workshops, remove redundant code
 
