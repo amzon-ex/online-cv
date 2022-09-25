@@ -85,6 +85,12 @@ education:
       time: 2014 - 2016
 
 experiences:
+    - role: Dynamical Black Hole Horizons
+      time: current
+      company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
+      details: |
+        - Determining apparent horizons for different dynamical spacetimes and understanding their importance in different fields.
+        - Finding an analytical expression for an event horizon candidate in these spacetimes.
     - role: Black Hole Perturbation Theory
       time: current
       company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
