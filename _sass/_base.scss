@@ -377,23 +377,30 @@ p {
     }
   }
 
-  .publication-title {
-    font-size: 16px;
-    font-weight: 400;
-    color: $text-color;
-    margin-bottom: 1px;
-  }
-  .publication-authors {
-    font-style: italic;
-    color: $text-grey;
-    margin-bottom: 1px;
-  }
   .publications-section {
     .intro {
       margin-bottom: 30px;
     }
     .item {
       margin-bottom: 15px;
+    }
+    .name {
+      color: $text-color;
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 1px;
+      font-weight: 500;
+    }
+    .authors {
+      margin-bottom: 1px;
+      color: $text-grey;
+      font-style: italic;
+    }
+    .preprint {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: $text-grey;
     }
   }
 }
