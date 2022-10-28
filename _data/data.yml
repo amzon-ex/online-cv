@@ -124,17 +124,17 @@ projects:
         tagline: "Simple animations and visualizations: fractals, fourier art, chaotic pendulums."
 
 
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+publications:
+    title: Publications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    papers:
+      - title: "Slowly Evolving Horizons in Einstein Gravity and Beyond"
+        link: "https://arxiv.org/abs/2210.15246"
+        authors: A. Tarafdar and S. Bhattacharjee
+        conference: "In Preparation"
 
 
 skills:
