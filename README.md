@@ -19,5 +19,5 @@ Forked from [sharu725/online-cv](https://github.com/sharu725/online-cv).
 - Added step progressbars to skills section
 - Added an option to include pre-prints of publications
 
-**TO-DO**: Add subsections to workshops, remove redundant code
+**TO-DO**: Add subsections to workshops, remove redundant code, add generic section layout
 
