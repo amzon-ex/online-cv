@@ -1,0 +1,56 @@
+{% assign genericsec = site.data.data.generic %}
+{% if genericsec %}
+<section class="section generic-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i> 
+    </span>
+    {{ genericsec.title }}
+  </h2>
+
+  {% for genericitem in genericsec %}
+  <div class="item">
+    <!-- Perhaps markdownifying simplifies this? But also introduces issues -->
+    <div class="meta">
+      {% if genericitem.time %}  
+      <div class="upper-row">
+        {% if genericitem.namelink %}
+            <a href="{{ genericitem.namelink }}"><h3 class="name">{{ genericitem.name }}</h3></a>
+        {% else %}
+            <h3 class="name">{{ genericitem.name }}</h3>
+        {% endif %}
+        {% if genericitem.timelink %}
+            <a href="{{ genericitem.timelink }}"><div class="time">{{ genericitem.time }}</div></a>
+        {% else %}
+            <div class="time">{{ genericitem.time }}</div>
+        {% endif %}
+      </div><!--//upper-row-->
+      {% else %}
+        {% if genericitem.namelink %}
+            <a href="{{ genericitem.namelink }}"><h3 class="name">{{ genericitem.name }}</h3></a>
+        {% else %}
+            <h3 class="name">{{ genericitem.name }}</h3>
+        {% endif %}
+        {% if genericitem.timelink %}
+            <a href="{{ genericitem.timelink }}"><div class="time">{{ genericitem.time }}</div></a>
+        {% else %}
+            <div class="time">{{ genericitem.time }}</div>
+        {% endif %}
+      {% endif %}
+
+      <!-- <div class="location">{{ genericitem.location }}</div> -->
+
+    </div><!--//meta-->
+
+    {% if genericitem.details %}
+    <div class="details">
+      {{ genericitem.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
