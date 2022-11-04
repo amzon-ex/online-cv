@@ -316,11 +316,15 @@ p {
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
-    margin-left: -5px;
+    // margin-left: -5px;
 
     .fa-stack {
       margin-right: 3px;
       margin-bottom: 3px;
+    }
+    .fa {
+      // margin-left: 4px;
+      margin-right: 3px;
     }
   }
   .section {
