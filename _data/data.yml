@@ -96,7 +96,7 @@ experiences:
       time: current
       company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
       details: |
-        - Studied and applied the time integration method (by Price) of the scattering equation derived from the Klein-Gordon field.
+        - Studied and applied the time integration method (by Gundlach et al) of the scattering equation derived from the Klein-Gordon field.
         - Solved for the metric of boson stars (BS). 
         - Currently studying quasinormal modes of BS configurations.
     - role: Initial Value Formulation of General Relativity
