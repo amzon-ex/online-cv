@@ -46,6 +46,7 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: 2;
+  position: relative;
   background: $theme-color;
   color: #fff;
   a {
@@ -301,6 +302,15 @@ p {
         margin-bottom: 0;
       }
     }
+  }
+
+  .update-date {
+    position: absolute;
+    padding: 1em;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: lighten($theme-color,25%);
   }
 }
 

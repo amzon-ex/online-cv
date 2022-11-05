@@ -35,4 +35,8 @@
     {% include about.html %}
   {% endif %}
 
+  <div class="update-date">
+    Updated: {{ sidebar.updated | date: "%-d %b '%y" }}
+  </div>
+
 </div><!--//sidebar-wrapper-->
