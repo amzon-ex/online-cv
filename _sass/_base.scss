@@ -343,6 +343,7 @@ p {
   .workshops-section {
     .item {
       margin-bottom: 30px;
+      page-break-inside: avoid;
     }
   }
   .upper-row {
