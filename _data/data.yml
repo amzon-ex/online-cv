@@ -144,6 +144,16 @@ publications:
         preprint: "https://arxiv.org/abs/2210.15246"
 
 
+talks:
+    - summary: Presentation of report - **Construction of Black Hole Initial Data**
+      details: As part of VRITIKA Research Internship at IIIT Allahabad (Jul 2021)
+
+    - summary: Talk on **Roads to the Planck scale**  
+      details: About the possible breakdown of classical gravity at Planck scale at C.K. Majumdar Memorial Workshop on Physics, SNBNCBS, Kolkata (Jun 2019)
+
+    - summary: BSc dissertation presentation - **Study of the Microphysical Processes of Cloud Formation**
+      details: St. Xavier's College, Kolkata (Apr 2019)
+
 skills:
     title: Skills &amp; Proficiency
 
@@ -220,7 +230,7 @@ workshops:
       time: May - Jun 2019
       location: IAPT at S.N. Bose National Centre for Basic Sciences, Kolkata
       details: |
-        - **Paper presentation:** "Roads to the Planck scale" - heuristic arguments about the possible breakdown of classical gravity at Planck scale, based on Adler (Am. J. Phys. 2010)
+        - **Paper presentation:** "Roads to the Planck scale"
 
 
 activities:
