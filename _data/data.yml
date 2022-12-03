@@ -6,7 +6,7 @@ sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
     skills: True # set to False if you want skills in main section instead of in sidebar
-    updated: 25-11-2022
+    updated: 03-12-2022
 
     # Profile information
     name: Ayon Tarafdar
@@ -98,7 +98,7 @@ experiences:
         - Finding an analytical expression for an event horizon candidate in slowly evolving spacetimes.
         - Studied the 2+2 foliation of spacetime and its applications in this context.
     - role: Compact Objects, Perturbation and Ringdown
-      time: current
+      time: Nov 2021 - Apr 2022
       company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
       details: |
         - Studied and applied the time integration method (by Gundlach et al) to the scattering equation derived from the Klein-Gordon field.
