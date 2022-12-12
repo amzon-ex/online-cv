@@ -6,7 +6,7 @@ sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
     skills: True # set to False if you want skills in main section instead of in sidebar
-    updated: 03-12-2022
+    updated: 12-12-2022
 
     # Profile information
     name: Ayon Tarafdar
@@ -62,7 +62,7 @@ sidebar:
 career-profile:
     title: I am...
     summary: |
-      I love to stay where grand theories of Physics and the prowess of computation meet. Simulation and visualization pique my interest. My current focus is on gravitational waves, numerical relativity and compact objects in general.
+      I love to stay where grand theories of Physics and the prowess of computation meet. Simulation and visualization pique my interest.
 
 education:
     - degree: MSc in Physics
@@ -93,28 +93,22 @@ experiences:
       time: current
       company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
       details: |
-        - Determining apparent horizons for different dynamical spacetimes and understanding their importance in different fields.
-        - Finding an analytical expression for an event horizon candidate in slowly evolving spacetimes.
-        - Studied the 2+2 foliation of spacetime and its applications in this context.
+        Finding a quasi-local event horizon candidate in dynamical black hole spacetimes.
     - role: Compact Objects, Perturbation and Ringdown
       time: Nov 2021 - Apr 2022
       company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
       details: |
-        - Studied and applied the time integration method (by Gundlach et al) to the scattering equation derived from the Klein-Gordon field.
-        - Solved for the metric of boson stars (BS).
+        Numerically determining boson star metrics and scalar field dynamics in general relativity.
     - role: Initial Value Formulation of General Relativity
       time: May - Jul 2021
       company: Dr. Srijit Bhattacharjee (IIIT Allahabad)
       details: |
-        - Derived the ADM-York equations by 3+1 foliation of spacetime in GR
-        - Investigated the role of constraints in the system
-        - Constructed Bowen-York puncture initial data by conformal decomposition of the constraint equations
-        - Solved the equations numerically for static, rotating and boosted BHs and discussed results
+        Studying the formulation of Numerical Realtivity and constructing initial data of a black hole.
     - role: Study of the Microphysical Processes of Cloud Formation
       time: Nov 2018 - Apr 2019
       company: Dr. Tapati Datta (St. Xavier's College, Kolkata)
       details: |
-        This reading project involved the study of the key thermodynamical processes that lead to cloud formation from aerosols that act as Cloud Condensation Nuclei (CCNs). It also involved a proof-of-concept simulation of the equations modelling droplet growth.
+        Study of the key thermodynamical processes that lead to cloud formation from aerosols.
 
 projects:
     title: Projects
@@ -126,6 +120,18 @@ projects:
       - title: showcase-physics
         link: "https://amzon-ex.github.io/showcase-physics"
         tagline: "Simple animations and visualizations: fractals, fourier art, chaotic pendulums."
+      - title: BH Initial Data
+        link: "https://github.com/amzon-ex/BH-Initial-Data"
+        tagline: "Constructing black hole initial data."
+      - title: gdrive-tree
+        link: "https://github.com/amzon-ex/gdrive-tree"
+        tagline: "Tool to build a file tree of your Google Drive."
+      - title: parallel-codes
+        link: "https://amzon-ex.github.io/parallel-codes/"
+        tagline: "A repository of parallel algorithms."
+      - title: Progblog
+        link: "https://amzon-ex.github.io/progblog-quartz/"
+        tagline: "A blog about various technical solutions and workflows I use."
 
 
 publications:
