@@ -6,7 +6,7 @@ sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
     skills: True # set to False if you want skills in main section instead of in sidebar
-    updated: 12-12-2022
+    updated: 29-12-2022
 
     # Profile information
     name: Ayon Tarafdar
@@ -79,14 +79,14 @@ education:
       details: |
         **Elective:** Nonlinear Dynamics  
         **Ancillaries:** Mathematics, Computer Science  
-        CGPA 7.98/10
+        First Class, CGPA 7.98/10
           - **Dissertation:** Study of the Microphysical Processes of Cloud Formation
 
     - degree: "ISC: Higher Secondary (Std XII)"
       university: St. Patrick's School, Asansol
       time: 2014 - 2016
       details: |
-        97.25%
+        Marks: 97.25%
 
 experiences:
     - role: Dynamical Black Hole Horizons
@@ -245,7 +245,6 @@ activities:
           Planning events, designing and supervising event committees
 
       - summary: Student Editor-in-chief of **Horizon (2018 ed)**, annual departmental magazine of Dept. of Physics, St. Xavier's College, Kolkata
-
 
 
 footer: >
