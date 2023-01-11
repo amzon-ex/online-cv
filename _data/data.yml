@@ -59,6 +59,10 @@ sidebar:
       - item: Science Communication
         link:
 
+    scores:
+      - name: TOEFL iBT (Nov 2022)
+        marks: 118/120
+
 career-profile:
     title: I am...
     summary: |

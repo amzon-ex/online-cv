@@ -278,6 +278,38 @@ p {
     }
   }
 
+  .scores-container {
+    .item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      line-height: 0px;
+    }
+    .score-box {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      outline: none;
+      margin-bottom: 10px;
+    }
+    .score-desc {
+      line-height: 1.15;
+    }
+    .meta {
+      color: rgba(256, 256, 256, 0.6);
+      margin-bottom: 0px;
+      margin-top: 0;
+    }
+    .marks-container {
+      position: relative;
+      width: fit-content;
+      height: fit-content;
+      padding-left: 10px;
+      align-self: center;
+    }
+  }
+
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
