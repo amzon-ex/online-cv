@@ -6,6 +6,7 @@ sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
     skills: True # set to False if you want skills in main section instead of in sidebar
+    scores: True
     updated: 29-12-2022
 
     # Profile information
@@ -58,10 +59,6 @@ sidebar:
 
       - item: Science Communication
         link:
-
-    scores:
-      - name: TOEFL iBT (Nov 2022)
-        marks: 118/120
 
 career-profile:
     title: I am...
@@ -207,6 +204,11 @@ skills:
           - name: LaTeX
             level: 2
 
+scores:
+  - name: TOEFL iBT (Nov 2022)
+    marks: 118/120
+    details: |
+      R: 30, L: 29, S: 30, W: 29
 
 workshops:
     - name: Numerical Relativity Community Summer School, 2022
